@@ -1,0 +1,152 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tahoma";
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    width: 1020px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ec671c;
+}
+
+.header .logo {
+    float: left;
+}
+
+.imglogo {
+    max-width: 300px;
+    height: auto
+}
+
+.header .menu {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .menu ul li {
+    float: left;
+}
+
+.header .menu ul li a {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header .menu ul li a:hover,
+.header .menu ul li.active a {
+    background-color: #ec671c;
+    color: white;
+    border-radius: 5px;
+}
+
+/***********************************************/
+.section {
+    margin-top: 40px;
+}
+
+.section>div.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ec671c;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/************************************************/
+
+.vitrin .products ul li {
+    margin: 20px 10px;
+    max-width: 225px;
+    height: auto;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.vitrin .products ul li img {
+    width: 100%;
+    padding: 10px;
+}
+
+/************************************************/
+
+.blog .items {
+    margin-top: 20px;
+}
+
+.blog .items ul li {
+    width: 500px;
+    float: left;
+    margin-left: 20px;
+}
+
+.blog .items ul li:first-child {
+    margin-left: 0;
+}
+
+.blog .items ul li img {
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+.blog .items ul li .text {
+    width: 370px;
+    float: left;
+    margin-left: 10px;
+}
+
+.blog .items ul li .text p {
+    font-size: 12px;
+    margin: 5px;
+}
+
+.blog .items ul li .text p.title {
+    margin-top: 0;
+    margin-bottom: 0px !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blog .items ul li .text p.date {
+    display: inline-block;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+/************************************************/
+
+.footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid grey;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+/************************************************/
