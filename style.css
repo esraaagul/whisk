@@ -295,7 +295,6 @@ body {
     font-weight: bolder;
 }
 
-
 .cart-quantity-input {
     height: 50px;
     width: 50px;
@@ -318,7 +317,6 @@ body {
     border: none;
     outline: none;
 }
-
 
 .cart-total {
     float: right;
@@ -363,74 +361,4 @@ body {
     text-decoration: none;
 }
 
-#quantity-cart {
-    display: inline-block !important;
-    border: 2px solid #828282;
-    border-radius: 80px;
-    height: 50px;
-    padding: 10px;
-}
 
-#quantity-cart .plus {
-    float: left;
-    color: #ec671c;
-    font-weight: bolder;
-    padding: 0px 5px;
-    font-size: 18px;
-    cursor: pointer;
-    border: none;
-}
-
-.cart-num {
-    width: 40px;
-    font-size: 18px;
-    font-weight: bolder;
-    text-align: center;
-    float: left;
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
-.cart-total {
-    float: right;
-    width: 100%;
-    padding: 30px 50px;
-    background-color: #ffffff;
-    border: 1px solid #828282;
-    border-radius: 17px;
-    margin-right: 45px;
-    max-width: 460px;
-    color: #1b1b29;
-    font-size: 18px;
-}
-
-.grand-total {
-    display: inline-block;
-    width: 100%;
-    margin: 19px 0 45px;
-}
-
-.grand-total span {
-    float: right;
-}
-
-.proceed-check {
-    background-color: #ec671c;
-    border-radius: 17px;
-    font-size: 16px;
-    padding: 5px 10px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.btn-buy {
-
-    color: white;
-}
-
-.btn-buy:hover {
-
-    color: white;
-    text-decoration: none;
-}
